@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crochet Mood Tracker - Blanket</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Version Indicator-->
+    <div class="version">
+        Version 0.01
+    </div>
+
+    <div class="header">
+        <h1>Crochet Your Moods in 2016: Blanket</h1>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="tracker.html">Square Tracker</a></li>
+            <li><a href="blanket.html">Blanket Image</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="mainbody">
+
+    </div>
+
+</body>
+</html>
+
+<script src='js/sql.js'></script>
+<script>
+    var fs = require('fs');
+    var SQL = require('sql.js');
+    var filebuffer = fs.readFileSync('CrochetMoodTracker.db');
+
+    // Load the db
+    var db = new SQL.Database(filebuffer);
+
+    //
+</script>
+
+<!--https://github.com/kripken/sql.js/ -->
+<!-- create database -->
