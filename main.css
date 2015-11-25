@@ -1,19 +1,40 @@
+
+
+body{
+  background-color: white;
+  margin:50px;
+}
+
+
 .version{
     color:red;
     text-align:right;
 }
 
-ul {
-  list-style-type:none;
-  margin:0px;
-  padding:0px;
+
+.header{
+  text-align:center;
+  background-color:lightgray;
+  font-family:monospace;
 }
 
-li {
+#title{
+  font-variant: small-caps;
+}
+
+#navbar {
+  list-style-type:none;
+  margin:0 auto;
+  padding:0px;
+  position:absolute;
+  text-align:center;
+}
+
+#navbar li {
   float:left;
 }
 
-a:link, a:visited {
+#navbar a:link, a:visited {
 /* Unused AND visited
 display:  inline means ONLY SPACE IT NEEDS
           block means GIVE IT A WIDTH
@@ -21,18 +42,24 @@ display:  inline means ONLY SPACE IT NEEDS
 font:     font-weight, color, text-align, text-decoration, text-transform
 
 */
-background-color:magenta;
+background-color:teal;
 color:white;
+display:block;
+width: 200px;
+padding:5px;
+text-decoration: none;
+text-transform: lowercase;
+font-weight:bold;
 
 }
 
-a:hover {
+#navbar a:hover {
   /* Hovered AND active.
   */
-  background-color:pink;
+  background-color:palegreen;
+  color:darkgreen;
 }
 
- a:active {
-   color:black;
-   background-color:white;
+#navbar a:active {
+   color:white;
  }
