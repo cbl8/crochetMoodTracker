@@ -2,3 +2,37 @@
     color:red;
     text-align:right;
 }
+
+ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+li {
+  float:left;
+}
+
+a:link, a:visited {
+/* Unused AND visited
+display:  inline means ONLY SPACE IT NEEDS
+          block means GIVE IT A WIDTH
+          width, padding, background-color
+font:     font-weight, color, text-align, text-decoration, text-transform
+
+*/
+background-color:magenta;
+color:white;
+
+}
+
+a:hover {
+  /* Hovered AND active.
+  */
+  background-color:pink;
+}
+
+ a:active {
+   color:black;
+   background-color:white;
+ }
