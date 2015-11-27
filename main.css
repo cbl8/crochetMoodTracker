@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> a058d6707345e2944f2a4c8f37ddb37af490a5b8
 body{
   background-color: white;
   margin:50px;
@@ -23,7 +18,6 @@ body{
 
 #title{
   font-variant: small-caps;
-  
 }
 
 #navbar {
@@ -44,10 +38,6 @@ display:  inline means ONLY SPACE IT NEEDS
           block means GIVE IT A WIDTH
           width, padding, background-color
 font:     font-weight, color, text-align, text-decoration, text-transform
-<<<<<<< HEAD
-=======
-
->>>>>>> a058d6707345e2944f2a4c8f37ddb37af490a5b8
 */
 background-color:teal;
 color:white;
