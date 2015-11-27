@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,9 @@
     </div>
 
     <div class="header">
-        <h1>Crochet Your Moods in 2016: Tracker</h1>
-        <ul class="navbar">
+      <h1 id="title">Crochet Your Moods in 2016<br>
+      Tracker</h1>
+        <ul id="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="journal.html">Journal</a></li>
             <li><a href="tracker.html">Square Tracker</a></li>
@@ -22,7 +23,7 @@
         </ul>
     </div>
 
-    <div class="mainbody">
+    <div class="main">
 
     </div>
 
@@ -34,10 +35,8 @@
     var fs = require('fs');
     var SQL = require('sql.js');
     var filebuffer = fs.readFileSync('CrochetMoodTracker.db');
-
     // Load the db
     var db = new SQL.Database(filebuffer);
-
     //
 </script>
 
